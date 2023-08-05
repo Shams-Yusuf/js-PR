@@ -26,11 +26,12 @@ getMoney();
 
 ///////7
 function getMoney(cash) {
-  return `вот вам ${cash}`;
+  return `вот вам  ${cash}$`;
 }
-console.log(getMoney("вот вам 399$"));
-console.log(getMoney("вот вам 100$"));
-console.log(getMoney("вот вам 0"));
+console.log("399$");
+console.log("100$");
+console.log("0");
+getMoney();
 
 ////////8
 function num(number) {
